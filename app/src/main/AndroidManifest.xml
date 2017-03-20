@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.demozi.wjviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".download.DownloadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings">
+        </activity>
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".behavior.FollowActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".behavior.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".behavior.QuickReturnActivity"
+            android:label="@string/title_activity_quick_return"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!--
+        <activity
+            android:name=".PullToRefreshActivity"
+            android:label="@string/title_activity_pull_to_refresh"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".download.DownloadActivity"/>
+         -->
+    </application>
+
+</manifest>
